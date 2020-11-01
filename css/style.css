@@ -141,7 +141,7 @@ a {
     height: 100%;
     z-index: 2;
     transition: 1s;
-    animation: aliceMacabra .7s  infinite;
+    animation: aliceMacabra 2s  infinite;
 }
 
 .home {
@@ -160,10 +160,24 @@ a {
 }
 
 @keyframes aliceMacabra {
-    from{
-        transform: scale(0.5);
+    0%,20%{  
+        transform: rotate(-10deg) scale(.1);
+        opacity: .02;
     }
-    to{
-        transform: scale(1);
+    10%,30%{
+        transform: rotate(5deg) scale(.2);
+        opacity: .1;
+    }
+    80%,50%{
+        transform: rotate(0) scale(.3);
+        opacity: .02;
+    }
+    40%,70%{
+        transform: rotate(-5deg) scale(.5);
+        opacity: .1;
+    }
+    60%,100%{
+        transform: rotate(0) scale(1);
+        opacity: 1;
     }
 }
