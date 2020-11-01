@@ -12,6 +12,7 @@
         align-items: center;
     }
     header > h1 {
+        text-align: left;
         max-width: 1024px;
     }
 }

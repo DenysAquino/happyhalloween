@@ -89,6 +89,7 @@ a {
     justify-content: center;
     align-items: center;
     color: crimson;
+    text-decoration: none;
 }
 
 .trilha {
@@ -110,9 +111,11 @@ a {
 .text-img p {
     width: 90%;
     max-width: 1024px;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 1.5;
     margin: 10px 0;
+    word-break: keep-all;
+    /* white-space: pre-line; */
 }
 
 .button-susto {
