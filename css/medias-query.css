@@ -5,4 +5,13 @@
     .logo-linkedin {
         margin-left: 20px;
     }
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    header > h1 {
+        max-width: 1024px;
+    }
 }
