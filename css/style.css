@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    background: #202427;
+    color: aliceblue;
+
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    color: white;
+    border-bottom: 1px solid crimson;
+}
+
+audio {
+    width: 180px;
+    height: 20px;
+    top: 0;
+    left: 0;
+}
+
+header > h1 {
+    color: crimson;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+main {
+    max-width: 100%;
+}
+
+h2 {
+    font-size: 30px;
+    padding: 20px;
+    font-weight: 100;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h3 {
+    padding: 10px 0;
+}
+
+img {
+    width: 90%;
+}
+
+button {
+    width: 90%;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    margin: 20px 0;
+    border-radius: 8px;
+    border: none;
+    transition: background .5s ease-out;
+}
+
+button:hover {
+    background-color: crimson;
+    color: white;
+}
+
+span {
+    color: crimson;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+footer {
+    border-top: 1px crimson solid;
+    text-align: center;
+    width: 100%;
+    font-size: 18px;
+    color: crimson;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: crimson;
+}
+
+.trilha {
+    display: flex;
+    justify-content: left;
+    width: 100%;
+
+}
+
+.text-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.text-img p {
+    width: 90%;
+    max-width: 1024px;
+    font-size: 24px;
+    text-indent: 20px;
+    line-height: 1.5;
+    margin: 10px 0;
+}
+
+.button-susto {
+    max-width: 500px
+}
+
+.alice{
+   width: 90%;
+   max-width: 700px;
+   border: 1px black solid;
+}
+
+.alice-macabra {
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.alice-macabra img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    transition: 1s;
+    animation: aliceMacabra .7s  infinite;
+}
+
+.home {
+    width: 50px;
+    font-size: 12px;
+    font-weight: 700;
+    position: absolute;
+    z-index: 3;
+    background-color: crimson;
+    bottom: 0;
+
+}
+
+.logo-linkedin {
+    width: 32px;
+}
+
+@keyframes aliceMacabra {
+    from{
+        transform: scale(0.5);
+    }
+    to{
+        transform: scale(1);
+    }
+}
