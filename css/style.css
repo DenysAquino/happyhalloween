@@ -177,7 +177,7 @@ a {
         opacity: .1;
     }
     60%,100%{
-        transform: rotate(0) scale(1);
+        transform: rotate(0) scale(2);
         opacity: 1;
     }
 }
